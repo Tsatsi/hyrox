@@ -1,0 +1,23 @@
+lockfile_version: '1'
+generated_at: '2026-07-07T19:23:06.825377+00:00'
+apm_version: 0.14.2
+dependencies:
+- repo_url: mattpocock/skills
+  host: github.com
+  resolved_commit: 8515a080a74dbcf5019a1a78efc24b5fcafb36b8
+  virtual_path: skills/productivity/grill-me
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .agents/skills/grill-me
+  - .claude/skills/grill-me
+  content_hash: sha256:f321507f77702a54af1db66549ec1685fc625390d06c57d7949cdcda8eb1b5c7
+- repo_url: mattpocock/skills
+  host: github.com
+  resolved_commit: 8515a080a74dbcf5019a1a78efc24b5fcafb36b8
+  virtual_path: skills/engineering/tdd
+  is_virtual: true
+  package_type: claude_skill
+  deployed_files:
+  - .claude/skills/tdd
+  content_hash: sha256:a97c290e9e05c74d6e936745b325a1585e0f5352bf46a595b65f7b24a57ad855

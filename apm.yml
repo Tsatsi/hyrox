@@ -1,0 +1,11 @@
+name: hyroxWorkout
+version: 1.0.0
+description: APM project for hyroxWorkout
+author: Tsatsi
+dependencies:
+  apm:
+  - mattpocock/skills/skills/productivity/grill-me
+  - mattpocock/skills/skills/engineering/tdd
+  mcp: []
+includes: auto
+scripts: {}
